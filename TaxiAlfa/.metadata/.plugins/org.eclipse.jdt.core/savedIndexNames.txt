@@ -1,0 +1,10 @@
+INDEX VERSION 1.126+C:\Users\Ivna\TaxiAlfa\.metadata\.plugins\org.eclipse.jdt.core
+2392129285.index
+2298433917.index
+1459828310.index
+3886656112.index
+1142170630.index
+2493860225.index
+1284074322.index
+848856923.index
+2501985457.index
