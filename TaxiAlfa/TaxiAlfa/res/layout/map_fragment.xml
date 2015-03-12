@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewDebug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yandex or Google map"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <!--fragment 
+          android:id="@+id/map"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:name="com.google.android.gms.maps.MapFragment"/> -->
+
+    <ru.yandex.yandexmapkit.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:apiKey="q8xIGP2OpS8Y1AOYKrCklSDWTdXYGyqabcsDQpdsmKcMJN4Sft5PQ0LyqIKdeVayTyd8ogt~Q33y9xtTbcyAKpP72GhMzT36oCq5lueFuOU=" />
+</LinearLayout>
